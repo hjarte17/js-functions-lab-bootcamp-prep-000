@@ -6,11 +6,11 @@ function happyHolidaysTo(a){
   var name = a
   return `Happy holidays, ${name}!`
 }
-function happyHolidayTo(string1, string2){
-  var holiday = string1
-  var name = string2
+function happyHolidayTo(b, c){
+  var holiday = b
+  var name = c
   return `Happy ${holiday}, ${name}!`
 }
-function holidayCountdown(days, holiday){
+function holidayCountdown(d, e){
     return `It's ${days} days until ${holiday}!`
 }
